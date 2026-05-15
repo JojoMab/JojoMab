@@ -1,10 +1,12 @@
 # Johannes Maboudou
 
-Ich entwickle Bewerberprojekte fuer duale Studiengaenge in Wirtschaftsinformatik, Informatik, Data Science und KI-nahen Themen. Mein Fokus liegt darauf, technische Grundlagen mit wirtschaftlichen Fragestellungen zu verbinden: Daten verarbeiten, Prozesse verstehen, einfache Software sauber strukturieren, Tests schreiben und Ergebnisse verstaendlich dokumentieren.
+Ich entwickle praxisnahe Bewerberprojekte für duale Studiengänge in Wirtschaftsinformatik, Informatik, Data Science und KI-nahen Themen. Mein Fokus liegt darauf, technische Grundlagen mit wirtschaftlichen Fragestellungen zu verbinden: Daten verarbeiten, Prozesse verstehen, einfache Software sauber strukturieren, Tests schreiben und Ergebnisse verständlich dokumentieren.
 
-Alle Projekte sind bewusst als Bewerberprojekte mit synthetischen Daten aufgebaut. Sie bilden keine echten Unternehmenssysteme ab und behaupten keine echte Praxiserfahrung.
+Meine Projekte sind bewusst als Bewerberprojekte mit synthetischen Daten aufgebaut. Sie bilden keine echten Unternehmenssysteme ab und behaupten keine echte Praxiserfahrung. Ziel ist es, meine Motivation, mein technisches Grundverständnis und meine Lernbereitschaft nachvollziehbar zu zeigen.
 
-## Fokus
+---
+
+## Fokusbereiche
 
 - Wirtschaftsinformatik und Business-/IT-Schnittstellen
 - Informatik, Java/OOP und Backend-Grundlagen
@@ -12,53 +14,100 @@ Alle Projekte sind bewusst als Bewerberprojekte mit synthetischen Daten aufgebau
 - ERP-/SAP-nahe Prozesse, Energie und Billing
 - Mobility, Logistik und Dispatching
 - Finanz-/Versicherungs-IT
-- Testing, GitHub Actions und recruiterfreundliche Dokumentation
+- Testing, GitHub Actions und verständliche Dokumentation
+
+---
 
 ## Projektmatrix
 
-| Projekt | Hauptthema | Passende Firmen / Bereiche | Gezeigte Skills | Status |
-| --- | --- | --- | --- | --- |
-| `commercial-it-transformation-analyzer` | Wirtschaftsinformatik / Consulting | Bosch, Deloitte, metafinanz, CANCOM, EY, Telekom | Python, SQLite, KPI, Reporting, Management Summary | starkes Hauptprojekt |
-| `smart-energy-sap-billing` | Energie / ERP / Billing | MONTANA, Siemens Energy, Infineon, Cpro Conlog | Python, Energiedaten, Billing, CO2-Auswertung | ausgebaut |
-| `signal-monitoring-analysis-system` | technische Informatik | MTU, Rohde & Schwarz, KNDS, ASMPT, Infineon | Sensordaten, Monitoring, Statistik, Health Score | ausgebaut |
-| `smart-finance-analyzer-for-csv-data-` | Finanz-IT | Allianz, Generali, Atruvia, Finanz Informatik, BVK | CSV, Validierung, Budgetampel, Reporting | verbessert; Umbenennung empfohlen |
-| `smart-mobility-logistics-analyzer` | Mobility / Logistik | ADAC, Cpro Conlog, SIXT, IFCO, Hoffmann Group | Dispatching, Lagerbezug, Servicefaelle, CSV-Reports | neu gebaut |
-| `predictive-maintenance-ml-analyzer` | Data Science / KI | MTU, SIXT, ASMPT, Atos, Infineon, Truma | Feature Engineering, Modelltraining, Evaluation | neu gebaut |
-| `java-service-ticket-api` | Backend / IT-Service | Atruvia, ConSol, CANCOM, Telekom, Finanz Informatik, Allianz | Java, Spring Boot, REST, Services, Tests | neu gebaut |
-| `java-insurance-claims-manager` | Versicherungs-/Finanz-IT | Allianz, Generali, Atruvia, Finanz Informatik, BVK | Java, OOP, JUnit, Risiko-Score, Reporting | neu gebaut |
+| Projekt | Thema | Tech Stack | Bewerbungsbezug |
+|---|---|---|---|
+| `commercial-it-transformation-analyzer` | Wirtschaftsinformatik, Consulting, KPI-Auswertung | Python, SQLite, CSV, Reporting, Tests | Bosch, Deloitte, metafinanz, CANCOM, EY, Telekom |
+| `smart-energy-sap-billing` | Energie, ERP-nahe Billing-Simulation, Smart Meter | Python, CSV, Billing-Logik, CO₂-Auswertung | MONTANA Energie, Siemens Energy, Infineon, Cpro Conlog |
+| `signal-monitoring-analysis-system` | Technische Informatik, Sensordaten, Monitoring | Python, Statistik, Anomalieerkennung, Health Score | MTU, Rohde & Schwarz, KNDS, Infineon, ASMPT |
+| `smart-finance-analyzer-for-csv-data-` | Finanzdaten, Budgetampel, Validierung | Python, CSV, Reporting, Prognose | Allianz, Generali, Atruvia, Finanz Informatik, BVK |
+| `smart-mobility-logistics-analyzer` | Mobility, Logistik, Dispatching, Lagerprüfung | Python, CSV, Prioritätslogik, Reports | ADAC, Cpro Conlog, SIXT, IFCO, Hoffmann Group |
+| `predictive-maintenance-ml-analyzer` | Data Science, Predictive Maintenance, ML-Grundlagen | Python, scikit-learn, Feature Engineering, Evaluation | MTU, Siemens Energy, Infineon, ASMPT, Atos |
+| `java-service-ticket-api` | Java Backend, REST API, IT-Service-Tickets | Java, Spring Boot, Maven, JUnit, REST | Atruvia, Finanz Informatik, CANCOM, ConSol, Telekom |
+| `java-insurance-claims-manager` | Java/OOP, Versicherungs- und Finanz-IT | Java, Maven, JUnit, CSV, Risiko-Score | Allianz, Generali, Atruvia, Finanz Informatik, BVK |
 
-## Skill-Uebersicht
+---
+
+## Skill-Übersicht
 
 | Bereich | Sichtbare Grundlagen |
-| --- | --- |
-| Python | CSV-Verarbeitung, Datenanalyse, Reporting, CLI-Projekte |
-| Java / OOP | Klassen, Services, Enums, Maven, JUnit |
-| Backend / REST API | Spring Boot, Controller, Service-Schicht, Repository-Schicht, Validierung |
-| Datenanalyse | Kennzahlen, Scoring, Plausibilitaet, Reports |
-| Machine Learning | Feature Engineering, einfaches Modelltraining, Accuracy, Precision, Recall, Confusion Matrix |
-| Datenbanken / SQL | SQLite im Consulting-Projekt, In-Memory-Datenhaltung im Java-Service-Projekt |
-| ERP / SAP-nahe Prozesse | Billing, Energieverbrauch, Lager-/Transportbegriffe, Prozessanalyse |
-| Logistik / Mobility | Pannenhilfe, Dispatching, Transportauftraege, Flotten-/Servicebezug |
-| Energie / Nachhaltigkeit | Verbrauchsdaten, Tarifvergleich, CO2-Auswertung, Energiewende-Bezug |
-| Finanz-/Versicherungs-IT | Schadensfaelle, Risiko-Score, Budgetampel, Plausibilitaetspruefung |
-| Cloud / DevOps-Grundlagen | GitHub Actions, CI fuer Python und Java |
-| Dokumentation / Reporting | deutsche READMEs, Application Fit, Recruiter Summary, Beispielausgaben |
+|---|---|
+| Programmiersprachen | Python, Java |
+| Java / Backend | Spring Boot, REST API, Controller, Service Layer, Repository, DTOs |
+| Testing | JUnit 5, unittest/pytest, einfache Service- und Logiktests |
+| Datenverarbeitung | CSV-Verarbeitung, Validierung, Datenbereinigung, Feature Engineering |
+| Datenbanken | SQLite, H2/In-Memory-Datenhaltung, grundlegende Datenmodellierung |
+| Data Science / KI | scikit-learn, Klassifikation, Accuracy, Precision, Recall, Confusion Matrix |
+| Wirtschaftsinformatik | KPI-Auswertung, Prozessanalyse, Projektpriorisierung, Management Summary |
+| ERP-/SAP-nahe Prozesse | Billing, Tariflogik, Energieverbrauch, Lager-/Transportbegriffe |
+| Mobility / Logistik | Dispatching, Servicefälle, Flottenbezug, Lagerprüfung, Prioritätslogik |
+| Finanz-/Versicherungs-IT | Schadensfälle, Risiko-Score, Budgetampel, Plausibilitätsprüfung |
+| DevOps-Grundlagen | GitHub Actions, Maven, automatisierte Testläufe |
+| Dokumentation | README, `application_fit.md`, Recruiter Summary, Beispielausgaben |
+
+---
 
 ## Projektcluster
 
-| Cluster | Projekte |
-| --- | --- |
-| Wirtschaftsinformatik / Consulting | `commercial-it-transformation-analyzer`, `java-service-ticket-api` |
-| Energie / ERP | `smart-energy-sap-billing` |
-| technische Informatik | `signal-monitoring-analysis-system`, `predictive-maintenance-ml-analyzer` |
-| Finanz-IT | `smart-finance-analyzer-for-csv-data-`, `java-insurance-claims-manager` |
-| Mobility / Logistik | `smart-mobility-logistics-analyzer` |
-| Java / Backend | `java-service-ticket-api`, `java-insurance-claims-manager` |
+### Wirtschaftsinformatik / Consulting
+
+- `commercial-it-transformation-analyzer`
+- `java-service-ticket-api`
+
+Diese Projekte zeigen, wie technische Daten, Geschäftsprozesse und Entscheidungslogik verbunden werden können. Sie eignen sich besonders für duale Studiengänge mit Fokus auf Business-/IT-Schnittstellen, Consulting, Prozessdigitalisierung und Projektbewertung.
+
+### Energie / ERP
+
+- `smart-energy-sap-billing`
+
+Dieses Projekt simuliert einen ERP-nahen Billing-Prozess mit synthetischen Energieverbrauchsdaten. Es zeigt Verbrauchsanalyse, Tariflogik, CO₂-Auswertung und nachvollziehbare Reports.
+
+### Technische Informatik / Monitoring
+
+- `signal-monitoring-analysis-system`
+- `predictive-maintenance-ml-analyzer`
+
+Diese Projekte zeigen technische Datenanalyse, Sensordaten, Anomalieerkennung, Health Scores und einfache ML-Auswertung. Sie passen besonders zu technischen Informatik- und Data-Science-nahen Studiengängen.
+
+### Finanz- / Versicherungs-IT
+
+- `smart-finance-analyzer-for-csv-data-`
+- `java-insurance-claims-manager`
+
+Diese Projekte zeigen Finanzdatenanalyse, Validierung, Risiko-Scoring, Budgetlogik und einfache Versicherungsprozesse. Sie passen zu Banken, Versicherungen und Finanz-IT-Unternehmen.
+
+### Mobility / Logistik
+
+- `smart-mobility-logistics-analyzer`
+
+Dieses Projekt verbindet Servicefälle, Pannenhilfe, Fahrzeugeinsatz, Lagerprüfung und Dispatching. Es ist auf Bewerbungen im Bereich Mobility, Logistik und Wirtschaftsinformatik ausgerichtet.
+
+### Data Science / KI
+
+- `predictive-maintenance-ml-analyzer`
+
+Dieses Projekt zeigt ein einfaches Klassifikationsmodell mit synthetischen Sensordaten. Der Fokus liegt auf Feature Engineering, Modelltraining, Evaluation und verständlicher Ergebnisdokumentation.
+
+### Java / Backend
+
+- `java-service-ticket-api`
+- `java-insurance-claims-manager`
+
+Diese Projekte zeigen Java-Grundlagen, objektorientierte Struktur, REST API, Spring Boot, JUnit-Tests und einfache fachliche Geschäftslogik.
+
+---
 
 ## Hinweis zur Einordnung
 
-Die Projekte sind auf duale Studiengaenge ausgerichtet. Sie sollen zeigen, dass ich Grundlagen verstehe, sauber dokumentiere und technische mit wirtschaftlichen Themen verbinden kann. Ich vermeide bewusst uebertriebene Senior-Claims und verwende ausschliesslich synthetische Beispieldaten.
+Alle Projekte sind Bewerberprojekte für duale Studiengänge. Sie verwenden synthetische Beispieldaten und dienen dazu, technische Grundlagen, saubere Struktur, Dokumentation und Lernbereitschaft nachvollziehbar zu zeigen. Die Projekte bilden keine echten Unternehmenssysteme ab und verwenden keine echten Unternehmensdaten.
+
+---
 
 ## English Summary
 
-Applicant portfolio for dual study programs in business information systems, computer science, data science and AI-related fields. The projects focus on clean structure, synthetic data, testing, CI, documentation and practical business/IT understanding.
+This GitHub profile is structured as an applicant portfolio for dual study programs in business information systems, computer science, data science and AI-related fields. The projects use synthetic data to demonstrate programming fundamentals, data processing, reporting, testing and basic software architecture. The focus is on clear documentation, realistic beginner-to-intermediate project scope and the connection between technical and business topics. The repositories are not production systems, but learning-oriented portfolio projects for applications.
