@@ -17,6 +17,7 @@ Ich entwickle praxisnahe Bewerberprojekte für duale Studiengänge in Wirtschaft
 
 | Projekt | Thema | Stack | Firmenbezug |
 | --- | --- | --- | --- |
+| `JojoMab` | Profil-README, Portfolio-Übersicht, Projektmatrix | Markdown, GitHub-Profil | Überblick für Recruiter und Studienplatzbewerbungen |
 | `commercial-it-transformation-analyzer` | Wirtschaftsinformatik, KPI, SQLite, Consulting | Python, SQLite, CSV, Unit Tests | Bosch, Deloitte, metafinanz, CANCOM, EY, Telekom |
 | `smart-energy-sap-billing` | Energie, ERP-nahe Billing-Simulation, Smart Meter, Nachhaltigkeit | Python, CSV, Reporting, Tests | MONTANA Energie, Siemens Energy, Infineon, Cpro Conlog |
 | `signal-monitoring-analysis-system` | Sensordaten, Monitoring, Anomalieerkennung, Health Score | Python, Statistik, CSV, Reports | MTU, Rohde & Schwarz, KNDS, Infineon, ASMPT |
@@ -25,13 +26,14 @@ Ich entwickle praxisnahe Bewerberprojekte für duale Studiengänge in Wirtschaft
 | `predictive-maintenance-ml-analyzer` | ML-Grundlagen, Feature Engineering, Evaluation | Python, pandas, scikit-learn, numpy | MTU, Siemens Energy, Infineon, MAN, Rohde & Schwarz |
 | `java-service-ticket-api` | Java, Spring Boot, REST API, Backend, JUnit | Java 21, Spring Boot, H2, Maven, JUnit | Atruvia, ConSol, CANCOM, Telekom, Finanz Informatik |
 | `java-insurance-claims-manager` | Java/OOP, Versicherungs-IT, Risiko-Score, JUnit | Java 21, Maven, CSV, JUnit | Allianz, Generali, Atruvia, Finanz Informatik, BG-Phoenics |
+| `thermal-process-monitor` | Prozessüberwachung, Grenzwerte, Alarme, technische Sensordaten | Python, pandas, matplotlib, seaborn, C++ | MTU, Rohde & Schwarz, Linde, Infineon, MAN |
 
 ## Skill-Übersicht
 
 | Bereich | Inhalte |
 | --- | --- |
 | Sprachen | Python, Java |
-| Frameworks und Bibliotheken | Spring Boot, JUnit, scikit-learn, pandas, numpy |
+| Frameworks und Bibliotheken | Spring Boot, JUnit, scikit-learn, pandas, numpy, matplotlib, seaborn |
 | Daten | CSV, SQLite, H2, einfache Validierung, synthetische Daten |
 | DevOps | GitHub Actions, Maven, automatisierte Tests |
 | Dokumentation | Markdown, README, `application_fit.md`, Recruiter-Zusammenfassungen |
@@ -42,7 +44,7 @@ Ich entwickle praxisnahe Bewerberprojekte für duale Studiengänge in Wirtschaft
 | --- | --- |
 | Wirtschaftsinformatik / Consulting | `commercial-it-transformation-analyzer` |
 | Energie / ERP | `smart-energy-sap-billing` |
-| Technische Informatik / Monitoring | `signal-monitoring-analysis-system`, `predictive-maintenance-ml-analyzer` |
+| Technische Informatik / Monitoring | `signal-monitoring-analysis-system`, `predictive-maintenance-ml-analyzer`, `thermal-process-monitor` |
 | Finanz- / Versicherungs-IT | `smart-finance-analyzer-for-csv-data-`, `java-insurance-claims-manager` |
 | Mobility / Logistik | `smart-mobility-logistics-analyzer` |
 | Data Science / KI | `predictive-maintenance-ml-analyzer` |
@@ -50,7 +52,7 @@ Ich entwickle praxisnahe Bewerberprojekte für duale Studiengänge in Wirtschaft
 
 ## Hinweis zur Einordnung
 
-Alle Projekte sind Bewerberprojekte mit synthetischen Daten. Sie dienen der nachvollziehbaren Demonstration von Grundlagen und bilden keine echten Unternehmenssysteme oder echten Unternehmensdaten ab.
+Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 ## English Summary
 
