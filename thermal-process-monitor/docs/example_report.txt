@@ -1,0 +1,18 @@
+Prozessbericht - Thermal Process Monitor
+
+Anzahl Messpunkte: 50
+Durchschnittstemperatur: 194.24 °C
+Maximaltemperatur: 251.0 °C
+Durchschnittsdruck: 7.95 bar
+Maximaldruck: 10.2 bar
+Durchschnittlicher Durchfluss: 12.36 l/min
+Durchschnittliche Wärmeübertragungsrate: 38.41 kW
+Durchschnittlicher Anlagenwirkungsgrad: 55.73 %
+
+Temperatur-Alarme: 5
+Druck-Alarme: 3
+Durchfluss-Alarme: 0
+Messpunkte mit mindestens einem Alarm: 8
+
+Alarmrate: 16.0 %
+Bewertung: Erhöhte Alarmrate. Überprüfung empfohlen.
