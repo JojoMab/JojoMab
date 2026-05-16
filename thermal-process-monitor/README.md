@@ -1,22 +1,31 @@
 # thermal-process-monitor
 
+![Thermal Process Monitor CI](https://github.com/JojoMab/JojoMab/actions/workflows/thermal-process-monitor-ci.yml/badge.svg)
+
 Bewerberprojekt zur Simulation einer industriellen Prozessüberwachung.
 
-Das Programm verarbeitet synthetische Sensordaten einer technischen Anlage, prüft Grenzwerte, erkennt Alarme und erstellt einen Prozessbericht. Zusätzlich enthält das Projekt eine kleine C++-Komponente zur Grenzwertprüfung.
+Das Programm verarbeitet synthetische Sensordaten einer technischen Anlage, prüft Grenzwerte, erkennt kritische Betriebszustände und erstellt einen verständlichen Prozessbericht. Ergänzend enthält das Projekt eine kleine C++-Komponente zur Grenzwertprüfung, um den Bezug zu technischer Softwareentwicklung und systemnaher Logik zu zeigen.
 
 ## Bewerbungskontext
 
-Das Projekt passt besonders zu technischer Informatik, Maschinenbau, Mechatronik und industrieller Softwareentwicklung.
+Das Projekt eignet sich besonders für Bewerbungen in den Bereichen technische Informatik, Mechatronik, Maschinenbau-nahe Softwareentwicklung und industrielle Datenanalyse.
 
-Passende Themen:
+| Studienrichtung | Relevanz |
+|---|---|
+| Technische Informatik | Sensorauswertung, Alarmlogik, Prozessüberwachung |
+| Maschinenbau | Temperatur, Druck, Durchfluss und Anlagenbewertung |
+| Mechatronik | Verbindung von Messdaten, Steuerungslogik und Software |
+| Data Science / KI-Grundlagen | Strukturierte Datenanalyse, Kennzahlen und einfache Auswertung |
 
-- Sensordatenanalyse
-- Prozessüberwachung
-- Grenzwertprüfung
-- Alarmlogik
-- technische Kennzahlen
-- Berichtserstellung
-- Python und C++ Grundlagen
+Passende Unternehmen und Branchen:
+
+- ASMPT
+- Linde Engineering
+- MTU Aero Engines
+- Siemens Energy
+- Automatisierungstechnik
+- Anlagenbau
+- industrielle Softwareentwicklung
 
 ## Tech Stack
 
@@ -25,18 +34,20 @@ Passende Themen:
 - numpy
 - pytest
 - GitHub Actions
-- C++
+- C++ Grundlagen
 
 ## Funktionen
 
 - Sensordaten aus CSV laden
-- Daten validieren
-- Temperatur, Druck und Durchfluss prüfen
+- Daten auf Vollständigkeit und Plausibilität prüfen
+- Temperatur, Druck und Durchfluss analysieren
+- Grenzwertverletzungen erkennen
 - Wärmeübertragungsrate berechnen
-- Anlagenwirkungsgrad berechnen
-- Alarme zusammenfassen
-- Prozessbericht erzeugen
-- Tests ausführen
+- vereinfachten Anlagenwirkungsgrad bestimmen
+- Alarme zusammenfassen und bewerten
+- Prozessbericht als TXT-Datei erstellen
+- automatisierte Tests ausführen
+- zusätzliche C++-Grenzwertprüfung nutzen
 
 ## Projektstruktur
 
@@ -44,23 +55,37 @@ Passende Themen:
 thermal-process-monitor/
 ├── main.py
 ├── src/
+│   ├── sensor_reader.py
+│   ├── process_calculator.py
+│   ├── alarm_handler.py
+│   └── report_generator.py
 ├── tests/
+│   ├── test_calculator.py
+│   └── test_alarm.py
 ├── data/
+│   └── sensor_readings.csv
 ├── docs/
+│   ├── application_fit.md
+│   └── example_report.txt
 ├── cpp/
+│   └── threshold_checker.cpp
 ├── reports/
-├── requirements.txt
-└── .github/workflows/python-ci.yml
+│   └── .gitkeep
+└── requirements.txt
 ```
 
-## Start
+## Schnellstart
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
 
-Der Bericht wird lokal unter `reports/process_report.txt` erzeugt.
+Der Bericht wird lokal unter folgendem Pfad erzeugt:
+
+```text
+reports/process_report.txt
+```
 
 ## Tests
 
@@ -76,6 +101,48 @@ Lokaler Teststatus: `7 passed`.
 g++ -o threshold_checker cpp/threshold_checker.cpp
 ./threshold_checker 180.5 8.2 12.1
 ```
+
+Beispielausgabe:
+
+```text
+OK
+```
+
+Bei Grenzwertüberschreitung:
+
+```bash
+./threshold_checker 251.0 8.2 12.1
+```
+
+```text
+ALARM - Temperatur ueberschreitet Grenzwert
+```
+
+## Beispielausgabe
+
+```text
+Lade Sensordaten... 50 Messpunkte geladen.
+Prüfe Grenzwerte...
+
+Temperatur-Alarme:  5
+Druck-Alarme:       3
+Durchfluss-Alarme:  0
+Alarmrate:          16.0 %
+
+Bericht gespeichert: reports/process_report.txt
+Bewertung: Erhöhte Alarmrate. Überprüfung empfohlen.
+```
+
+## Lernziele
+
+- Strukturierung eines Python-Projekts
+- Verarbeitung technischer CSV-Messdaten
+- Umsetzung einer einfachen industriellen Überwachungslogik
+- Berechnung technischer Kennzahlen
+- Schreiben automatisierter Tests
+- Nutzung von GitHub Actions
+- Kombination von Python und C++ Grundlagen
+- verständliche technische Dokumentation
 
 ## Hinweis
 
