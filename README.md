@@ -56,6 +56,6 @@ Alle Daten sind synthetisch und dienen ausschließlich der Demonstration.
 
 Die Projekte sind Bewerberprojekte und nicht für den produktiven Einsatz vorgesehen.
 
-## English Summary
+## Kurzfassung
 
-I build applicant portfolio projects for dual study programs in business information systems, computer science, data science and AI-related fields. My projects combine basic software engineering, data analysis, reporting and business process understanding. They use synthetic data and are designed to be understandable for recruiters as well as technically reviewable. The portfolio highlights Python, Java, backend development, data processing, testing, CI and practical documentation.
+Dieses Profil bündelt Bewerberprojekte für duale Studiengänge in Wirtschaftsinformatik, Informatik, Data Science und KI-nahen Bereichen. Die Projekte zeigen Grundlagen in Softwareentwicklung, Datenanalyse, Reporting, Tests, CI und verständlicher Dokumentation mit synthetischen Daten.
