@@ -13,7 +13,7 @@ Das Projekt `thermal-process-monitor` wurde lokal bereinigt und als GitHub-ready
 - Prozessbericht
 - pytest-Tests
 - GitHub Actions Workflow
-- ergänzende C++-Komponente
+- separate C++-Grenzwertprüfung als Zusatzübung
 
 ## Bereinigung
 

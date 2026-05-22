@@ -1,0 +1,3 @@
+# Profile-Repository.
+# Python-Abhaengigkeiten fuer das eingebettete Thermal-Process-Beispiel:
+-r thermal-process-monitor/requirements.txt

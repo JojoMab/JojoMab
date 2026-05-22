@@ -4,7 +4,7 @@
 
 Bewerberprojekt zur Simulation einer industriellen Prozessüberwachung.
 
-Das Programm verarbeitet synthetische Sensordaten einer technischen Anlage, prüft Grenzwerte, erkennt kritische Betriebszustände und erstellt einen verständlichen Prozessbericht. Ergänzend enthält das Projekt eine kleine C++-Komponente zur Grenzwertprüfung, um den Bezug zu technischer Softwareentwicklung und systemnaher Logik zu zeigen.
+Das Programm verarbeitet synthetische Sensordaten einer technischen Anlage, prüft Grenzwerte, erkennt kritische Betriebszustände und erstellt einen verständlichen Prozessbericht. Ergänzend enthält das Projekt eine kleine, eigenständige C++-Grenzwertprüfung als Zusatzübung in systemnaher Syntax.
 
 ## Bewerbungskontext
 
@@ -47,7 +47,7 @@ Passende Unternehmen und Branchen:
 - Alarme zusammenfassen und bewerten
 - Prozessbericht als TXT-Datei erstellen
 - automatisierte Tests ausführen
-- zusätzliche C++-Grenzwertprüfung nutzen
+- separate C++-Grenzwertprüfung nutzen
 
 ## Projektstruktur
 
@@ -141,7 +141,7 @@ Bewertung: Erhöhte Alarmrate. Überprüfung empfohlen.
 - Berechnung technischer Kennzahlen
 - Schreiben automatisierter Tests
 - Nutzung von GitHub Actions
-- Kombination von Python und C++ Grundlagen
+- Python-Hauptlogik plus separate C++-Grundlagenübung
 - verständliche technische Dokumentation
 
 ## Hinweis
